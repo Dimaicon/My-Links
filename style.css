@@ -4,9 +4,10 @@
 }
 img{
     
-    border-radius: 20px;
+    border-radius: 50%;
     width: 320px;
     height: 320px;
+    border: 1px solid greenyellow;
 }
 h1{
     color: white;
@@ -15,7 +16,7 @@ h1{
 }
 body{
     background-color: black;
-    font-family: sans-serif;
+    font-family: Impact, sans-serif;
 }
 p{
     color: white;
@@ -31,6 +32,10 @@ ul{
 li{
     margin-bottom: 18px;
     list-style-type: none;
+}
+a:hover{
+    background-color: aqua;
+    color: limegreen;
 }
 
 a{
